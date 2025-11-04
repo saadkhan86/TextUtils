@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+🧩 TextUtils — Smart Text Analyzer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern React-based web app for quick, efficient, and intuitive text manipulation.
 
-## Available Scripts
+✨ Overview
 
-In the project directory, you can run:
+TextUtils helps users analyze and modify text instantly — whether you’re formatting code snippets, cleaning up paragraphs, or counting words and characters.
+Built with React.js and Bootstrap 5, it delivers a clean, responsive, and user-friendly experience with light and dark mode support.
 
-### `npm start`
+🚀 Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+🔠 Text Conversion: Convert text to uppercase or lowercase
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🧹 Clean Formatting: Remove extra spaces and tidy your content
 
-### `npm test`
+🧮 Real-Time Analysis: Count words and characters instantly
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+📋 Quick Copy: Copy formatted text to the clipboard in one click
 
-### `npm run build`
+🌗 Dark/Light Mode: Seamless theme toggle for better readability
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+💾 Persistent Mode: Theme preference stored in localStorage
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+🛠️ Tech Stack
+Technology Purpose
+React.js Frontend framework
+Bootstrap 5 Styling and layout
+React Router DOM Page navigation
+LocalStorage API Save user preferences
+🧑‍💻 Getting Started
+1️⃣ Clone the Repository
+git clone https://github.com/<saadkhan86>/TextUtils.git
+cd TextUtils
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2️⃣ Install Dependencies
+npm install
 
-### `npm run eject`
+3️⃣ Start the Development Server
+npm start
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+App runs at 👉 http://localhost:3000
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+🌐 Deployment (GitHub Pages)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+You can easily deploy TextUtils on GitHub Pages.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+npm install gh-pages --save-dev
 
-## Learn More
+Then add these lines to your package.json:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+"homepage": "https://<your-username>.github.io/TextUtils",
+"scripts": {
+"predeploy": "npm run build",
+"deploy": "gh-pages -d build"
+}
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Deploy your app:
 
-### Code Splitting
+npm run deploy
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Your live site will be available at:
+🌍 https://<your-username>.github.io/TextUtils
 
-### Analyzing the Bundle Size
+📸 Preview
+Light Mode Dark Mode
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+💡 About
 
-### Making a Progressive Web App
+TextUtils is built for developers, students, and writers who value simplicity and speed.
+It’s an open-source project focused on productivity, clean UI, and modern web design.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+📜 License
 
-### Advanced Configuration
+This project is licensed under the MIT License — see the LICENSE
+file for details.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+💬 Connect
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+👨‍💻 Developer: saad Muhammad Bin Ramzan
+🌐 Portfolio: saadtecz.com
+📧 Email: sk8613013@email.com
