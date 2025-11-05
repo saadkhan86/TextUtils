@@ -45,6 +45,7 @@ export default function About({ mode }) {
               className="card h-100 border-0"
               style={{
                 backgroundColor: cardBg,
+                color:textColor,
                 boxShadow: cardShadow,
                 borderRadius: "16px",
                 transition: "transform 0.3s ease, box-shadow 0.3s ease",
@@ -55,10 +56,10 @@ export default function About({ mode }) {
               onMouseLeave={(e) => (e.currentTarget.style.transform = "translateY(0)")}
             >
               <div className="card-body text-center p-4">
-                <h5 className="card-title mb-3 fw-semibold">
+                <h5 className="card-title mb-3 fw-semibold text-primary">
                   {feature.title}
                 </h5>
-                <p className="card-text text-secondary">{feature.desc}</p>
+                <p className="card-text" style={{color:textColor}}>{feature.desc}</p>
               </div>
             </div>
           </div>
@@ -66,12 +67,12 @@ export default function About({ mode }) {
       </div>
 
       {/* Technology Section */}
-      <div className="mt-5 text-center">
-        <h3 className="fw-bold mb-3">Built With Modern Tech</h3>
-        <p className="text-secondary mb-1">
+      <div className="mt-5 text-center" style={{color:textColor}}>
+        <h3 className="fw-bold mb-3 text-primary">Built With Modern Tech</h3>
+        <p className="mb-1">
           <strong>React.js</strong> • <strong>Bootstrap 5</strong> • <strong>React Router</strong>
         </p>
-        <p className="text-secondary">
+        <p className=""style={{color:textColor}}>
           Your preferences (like theme mode) are saved using <strong>localStorage</strong> for a
           smooth experience every time.
         </p>
@@ -87,7 +88,7 @@ export default function About({ mode }) {
       </div>
 
       {/* Footer */}
-      <footer className="mt-5 text-center text-muted">
+      <footer className="mt-5 text-center muted" style={{color:textColor}}>
         <small>
           Made with ❤️ by <strong><a href="https://github.com/saadkhan86" target="_blank" rel="noopener noreferrer">saadkhan86</a></strong> • Powered by React
         </small>
