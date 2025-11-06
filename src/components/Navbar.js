@@ -46,12 +46,13 @@ export default function Navbar({ mode = "light", toggler }) {
                 type="checkbox"
                 role="switch"
                 id="switchCheckDefault"
+                style={{cursor:"pointer"}}
               />
               <label
                 className="form-check-label text-light"
                 htmlFor="switchCheckDefault"
               >
-                {mode === "light" ? "Dark mode" : "Light mode"}
+                {mode === "light" ? "Enable dark mode" : "Enable light mode"}
               </label>
             </div>
           </div>

@@ -45,7 +45,7 @@ function App() {
     <>
       <Navbar mode={mode} toggler={changeMode} />
       <Alert alert={alert} setAlert={setAlert} />
-      <div className="container my-3">
+      <div className="container">
         <Routes>
           <Route path="/" element={<Navigate to="/home" replace />} />
           <Route
